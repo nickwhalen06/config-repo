@@ -4,9 +4,9 @@ zuul.routes.organizationservice: /organization/**
 zuul.routes.assetsservice: /assets/**
 #zuul.routes.specialroutesservice: /specialroutesservice/**
 #zuul.routes.authenticationservice: /auth/**
-#zuul.routes.assetstatic.path: /assetstatic/**
-#zuul.routes.assetstatic.url:  http://assetservice-static:8081
-#zuul.routes.assetstatic.serviceId: assetstatic
+zuul.routes.assetstatic.path: /assetsstatic/**
+zuul.routes.assetstatic.url:  http://assetsservice-static:8081
+zuul.routes.assetstatic.serviceId: assetsstatic
 #zuul.routes.assetstatic.ribbon.listOfServers: http://assetservice-static1:8081, http://assetservice-static2:8082
 #ribbon.eureka.enabled: false
 zuul.sensitiveHeaders: Cookie,Set-Cookie
