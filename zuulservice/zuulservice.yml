@@ -1,5 +1,5 @@
-zuul.ignored-services: 'organizationservice'
-zuul.prefix:  #/api
+zuul.ignored-services: '*'
+zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.assetsservice: /assets/**
 zuul.routes.specialroutesservice: /specialroutesservice/**
