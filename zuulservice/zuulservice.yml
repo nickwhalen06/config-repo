@@ -3,7 +3,7 @@ zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.assetsservice: /assets/**
 #zuul.routes.specialroutesservice: /specialroutesservice/**
-zuul.routes.authenticationservice: /auth/**
+#zuul.routes.authenticationservice: /auth/**
 #zuul.sensitiveHeaders: Authorization
 zuul.debug.request: true
 #zuul.routes.assetstatic.path: /assetsstatic/**
